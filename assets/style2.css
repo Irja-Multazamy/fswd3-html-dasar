@@ -1,0 +1,62 @@
+body{
+    background-color: maroon;
+    font-family: sans-serif;
+}
+
+:root{
+    --white: white;
+    --darkgreen: darkgreen;
+    --beige: beige;
+}
+
+h1{
+    color: var(--white);
+    text-align: center;
+    margin: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.kartu1, .kartu2, .kartu3{
+    width: 300px;
+    margin: 30px;
+    padding: 3px;
+    border-radius: 2%;
+}
+
+.kartu1{
+    box-shadow: 2px 2px 10px var(--white);
+    background: var(--white);
+}
+
+.kartu2{
+    box-shadow: 2px 2px 10px var(--darkgreen);
+    background: var(--darkgreen);
+}
+
+.kartu3{
+    box-shadow: 2px 2px 10px var(--beige);
+    background: var(--beige);
+}
+
+.gambar{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.img{
+    width: 100%;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+
+.konten{
+    text-align: center;
+}
+
+.konten2{
+    text-align: center;
+    color: var(--white);
+}
