@@ -1,0 +1,174 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header .box1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.box1 h1{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+span{
+    color: rgb(14, 11, 170);
+}
+
+header .box1 .box2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header .box1 .box2 .item{
+    padding: 1.7rem;
+}
+
+header .box1 .box2 .item a{
+    text-decoration: none;
+    color: black;
+}
+
+header .box1 .box2 .item a:hover{
+    color: rgb(14, 11, 170);
+    border-bottom: 1px solid rgb(14, 11, 170);
+}
+
+header .box3{
+    background-color: rgb(125, 231, 245);
+    width: 100%;
+}
+
+header .box3 h2, p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+main h2{
+    padding-left: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .artikel{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 10px;
+    justify-content: space-around;
+}
+
+.container .artikel .card{
+    width: 370px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 2%;
+    box-shadow: 2px 2px 10px var(--white);
+    background: white;
+    position: relative;
+}
+
+.gambar{
+    max-height: 300px;
+    max-width: 370px;
+}
+
+.gambar h2{
+    position: absolute;
+    top: 40%;
+    color: white;
+}
+
+.img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+.konten2{
+    text-align: left;
+}
+
+.konten2 a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.konten2 a:hover{
+    color: rgb(14, 11, 170);
+}
+
+.artikel2 a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.artikel2 a:hover{
+    color: rgb(14, 11, 170);
+}
+
+footer{
+    padding: 7px;
+    background-color: aquamarine;
+}
+
+/* Media queries */
+/* Laptop */
+@media (max-width: 1366px){
+    html{
+        font-size: 100%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px){
+    html{
+        font-size: 90%;
+    }
+}
+
+/* Phone */
+@media screen and (max-width:608px){
+    html{
+        font-size: 80%;
+    }
+    .box1 h1{
+        padding-left: 230px;
+        padding-right: 230px;
+    }
+    header .box1 .box2{
+        max-width: 50px;
+    }
+    header .box1 .box2 .item{
+        padding: 0.4rem;
+    }
+    .gambar h2{
+        top: 50%;
+    }
+}
