@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Bootstrap Framework</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+    crossorigin="anonymous">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        span{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container">
+        <div class="d-flex flex-wrap justify-content-lg-start justify-content-sm-around text-center">
+            <div class="p-2 col-sm-10 col-md-5 col-lg-7"><h4><b>Travel<span>QU</span>.</b></h4></div>
+            <div class="p-2 col-sm-10 col-md-1 col-lg-1"><a href="#" class="text-dark text-decoration-none">Home</a></div>
+            <div class="p-2 col-sm-10 col-md-1 col-lg-1"><a href="#" class="text-dark text-decoration-none">About</a></div>
+            <div class="p-2 col-sm-10 col-md-1 col-lg-1"><a href="#" class="text-dark text-decoration-none">Contact</a></div>
+        </div>
+    </div>
+    <!-- keterangan -->
+    <div class="bg-primary-subtle p-3">
+        <div class="container">
+            <h4><b>Selamat datang</b></h4>
+            <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero assumenda reprehenderit architecto rerum nobis consectetur harum eveniet. Iusto inventore, sint porro reiciendis, dignissimos iure placeat quisquam aspernatur incidunt minima sit?</p>
+        </div>
+    </div>
+    <!-- main content -->
+    <div class="d-flex flex-row flex-wrap bg-secondary-subtle p-4">
+            <div class="d-flex flex-column">
+                <div class="box">
+                    <h4><b>Daftar Travel<span>QU</span>.</b></h4>
+                    <p>Daftar lokasi travel yang paling diminati</p>
+                </div>
+                <div class="d-flex flex-row flex-wrap justify-content-around">
+                    <div class="d-flex flex-row flex-wrap justify-content-around">
+                        <div class="col-md p-2">
+                            <div class="card bg-white text-dark border-0" style="max-width: 340px;">
+                                <div class="card-body">
+                                    <h5 class="position-absolute text-white px-2" style="padding-top: 40%;"><b>Hutan Sub Tropis</b></h5>
+                                    <div class="h1 mb-3">
+                                        <img src="img/hutan.jpg" class="figure-img img-fluid rounded">
+                                    </div>
+                                    <p class="card-text" style="text-align: justify;">Hutan sub tropis dengan berbagai satwa yang dilindungi</p>
+                                    <div class="bg-dark"><a href="#" class="btn text-white">Baca selengkapnya</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md p-2">
+                            <div class="card bg-white text-dark border-0" style="max-width: 340px;">
+                                <div class="card-body">
+                                    <h5 class="position-absolute text-white px-2" style="padding-top: 40%;"><b>Danau</b></h5>
+                                    <div class="h1 mb-3">
+                                        <img src="img/danau.jpg" class="figure-img img-fluid rounded">
+                                    </div>
+                                    <p class="card-text" style="text-align: justify;">Danau bening biru yang dikelilingi pegunungan salju yang indah</p>
+                                    <div class="bg-dark"><a href="#" class="btn text-white">Baca selengkapnya</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md p-2">
+                            <div class="card bg-white text-dark border-0" style="max-width: 340px;">
+                                <div class="card-body">
+                                    <h5 class="position-absolute text-white px-2" style="padding-top: 40%;"><b>Pantai Pasir Putih</b></h5>
+                                    <div class="h1 mb-3">
+                                        <img src="img/pantai.jpg" class="figure-img img-fluid rounded">
+                                    </div>
+                                    <p class="card-text" style="text-align: justify;">Pantai pasir putih halus dengan hamparan air laut biru dan tenang</p>
+                                    <div class="bg-dark"><a href="#" class="btn text-white">Baca selengkapnya</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column px-lg-4">
+                <div class="content">
+                    <h4><b>Artikel terkait</b></h4>
+                    <p>Artikel seputar website</p>
+                </div>
+                <div class="content">
+                    <p><a href="#" class="text-dark text-decoration-none">Travel Wisata</a></p>
+                    <p><a href="#" class="text-dark text-decoration-none">Travel Sport</a></p>
+                    <p><a href="#" class="text-dark text-decoration-none">Pesan Hotel</a></p>
+                    <p><a href="#" class="text-dark text-decoration-none">Hiburan</a></p>
+                    <p><a href="#" class="text-dark text-decoration-none">Food & Drink</a></p>
+                </div>
+            </div>
+    </div>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+</html>
